@@ -9,9 +9,13 @@ Design Responsivo, Hotbar, Animação em Botões, transições, Formulários, Hy
 
 Header:
 Background sobreposto por cor e com atribuição multiply, título da página, além de um botão de redirecionamento para o Main.
+
 Main:
 Colunas em Grid, elementos com uso de Javascript.
+
 Footer:
+Informações divididas com grid, icones de redes sociais com link.
+
 :octagonal_sign: Atenção: Apenas as 2 primeiras raças contém texto pelo fato de ser apenas um projeto.
 
 Formulários de Login e Registro.

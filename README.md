@@ -16,7 +16,7 @@ Colunas em Grid, elementos com uso de Javascript.
 Footer:
 Informações divididas com grid, icones de redes sociais com link.
 
-:octagonal_sign: Atenção: Apenas as 2 primeiras raças contém texto pelo fato de ser apenas um projeto.
+🛑 Atenção: Apenas as 2 primeiras raças contém texto pelo fato de ser apenas um projeto.
 
 Formulários de Login e Registro.
 

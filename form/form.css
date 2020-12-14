@@ -1,0 +1,52 @@
+body {
+  background-color:lightgray;
+  background-image: url(/img/background.jpg);
+  background-blend-mode: multiply;
+  font-family: sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 40%;
+  background-size: cover;
+}
+
+main {
+  background-color: #fff;
+  padding: 30px;
+  width: 50%;
+  border-radius: 10px;
+}
+
+main form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: 
+    "user user"
+    "senha senha"
+    "login reset";
+  grid-gap: 1rem;
+}
+
+main form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+main form .user {
+  grid-area: user;
+}
+
+main form .senha {
+  grid-area: senha;
+}
+
+main form .botaologin {
+  grid-area: login;
+}
+
+main form .botaoreset {
+  grid-area: reset;
+}

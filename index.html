@@ -7,8 +7,19 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
   </head>
   <body>
+    <div class="hotbar">
+      <ul class="hotbar">
+        <li><a href="#main" class="active">Home</a></li>
+        <li><a href="#loc">Localização</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li class="registro"><a href="./form/login.html">Login</a></li>
+        <li class="registrar"><a href="./form/register.html">Registrar-se</a></li>
+      </ul>
+    </div>
     <header>
     <div class="titulo">
       <h1>DOGINFO</h1>
@@ -17,85 +28,116 @@
     </div>
     </header>
     <main id="main">
+      <h1>Raças</h2>
       <div class="animais">
         <section class="ami">
           <span class="img">
             <img src="/img/dogs/husky.jpg" width="200px" height="200px"></img>
           </span>
-          <h1>Raça 1</h1>
+          <button onclick="myFunction()">Husky Siberiano</button>
+          <div class="informacao" id="info">
+            <p>O Husky siberiano surgiu na Sibéria há cerca de dois mil anos. A criação e dispersão da raça é atribuída a uma tribo chamada Chukchi, que utilizava os cachorros para puxarem os trenós.</p>
+            <p>Muito brincalhões e independentes, eles são também cãezinhos bem teimosos. Sua origem faz com que exercícios físicos sejam imprescindíveis para esses animais, não apenas pela saúde, mas porque eles realmente amam se exercitar!</p>
+            <p>Esses peludos são muito inteligentes, mas extremamente teimosos e por isso difíceis de serem treinados! Por serem independentes, eles não estão muito preocupados em agradar aos seus tutores e realizar comandos não é muito a praia deles. Por isso precisam ser educados desde filhotinhos e precisam de muita paciência e atenção para ficarem obedientes. Estímulos diários devem fazer parte da rotina e exercícios físicos para gastar energia também, de forma a evitar que os cães fiquem entediados ou ansiosos, o que dificulta ainda mais o treinamento.</p>
+            <p>Umas das características mais marcantes dessa raça são os olhos. Comumente possuem olhos castanhos ou azuis e é muito comum Huskys com heterocromia (um olho de cada cor). No entanto, os belos olhos dos Huskys estão propensos a desenvolverem algumas doenças. As principais são: cataratas bilaterais, glaucoma, opacidade da córnea e atrofia progressiva da retina. Claro que não é uma regra que o seu Husky Siberiano vá desenvolver qualquer uma dessas doenças, mas elas podem ser graves e levar à perda completa da visão, por isso a qualquer sinal de desconforto que o animal apresente, ele deve ser levado ao médico veterinário para uma avaliação completa.</p>
+          </div>
         </section>
         <section class="ami">
           <span class="img">
             <img src="/img/dogs/beagle.jpg" width="200px" height="200px"></img>
           </span>
-          <h1>Raça 2</h1>
+          <button onclick="myFunction2()">Beagle</button>
+          <div class="informacao" id="info2">
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+          </div>
         </section>
         <section class="ami">
           <span class="img">
             <img src="/img/dogs/dalmata.jpg" width="200px" height="200px"></img>
           </span>
-          <h1>Raça 3</h1>
+          <button onclick="myFunction3()">Dalmata</button>
+          <div class="informacao" id="info3">Informações sobre a raça.</div>
         </section>
         <section class="ami">
           <span class="img">
             <img src="/img/dogs/poodle.jpg" width="200px" height="200px"></img>
           </span>
-          <h1>Raça 4</h1>
+          <button onclick="myFunction4()">Poodle</button>
+          <div class="informacao" id="info4">Informações sobre a raça.</div>
         </section>
         <section class="ami">
           <span class="img">
             <img src="/img/dogs/salsicha.jpg" width="200px" height="200px"></img>
           </span>
-          <h1>Raça 5</h1>
+          <button onclick="myFunction5()">Daschund</button>
+          <div class="informacao" id="info5">Informações sobre a raça.</div>
         </section>
         <section class="ami">
           <span class="img">
             <img src="/img/dogs/Bulldog.jpg" width="200px" height="200px"></img>
           </span>
-          <h1>Raça 6</h1>
+          <button onclick="myFunction6()">Bulldog</button>
+          <div class="informacao" id="info6">Informações sobre a raça.</div>
         </section>
         <section class="ami">
           <span class="img">
             <img src="/img/dogs/German_Shepherd.jpg" width="200px" height="200px"></img>
           </span>
-          <h1>Raça 7</h1>
+          <button onclick="myFunction7()">Pastor Alemão</button>
+          <div class="informacao" id="info7">Informações sobre a raça.</div>
         </section>
         <section class="ami">
           <span class="img">
             <img src="/img/dogs/labrador.jpg" width="200px" height="200px"></img>
           </span>
-          <h1>Raça 8</h1>
+          <button onclick="myFunction8()">Labrador</button>
+          <div class="informacao" id="info8">Informações sobre a raça.</div>
         </section>
       </div>
     </main>
   <footer>
     <section class="conteudo">
-      <section class="endereço">
+      <section id="loc" class="endereço">
         <h1>Endereço</h1>
         <p>Av. Primeiro de Maio, 720 - Jaguaribe, João Pessoa - PB, 58015-435</p>
-        <p>MAPA GOOGLE</p>
       </section>
-      <section class="redesecontato">
-        <h1>Redes Sociais</h1>
-        <ul>
-          <li>
-            <a href="https://www.facebook.com/ifpbcampusjpoficial"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/ifpbcampusjpoficial/"><i class="fa fa-instagram fa-2x" aria-hidden="false"></i></a>
-          </li>
-          <li>
-            <a href="https://twitter.com/IFPBoficial?s=20"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-          </li>
-          <li>
-            <a href="https://br.linkedin.com/school/ifpb/"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
-          </li>
-        </ul>
-      </section>
-      <section class="sobre">
-        <h1>Quem Somos?</h1>
-        <p>DOGINFO é um site informativo sobre raças de cachorro, onde com blocos interativos seja possível a comparação entre as raças e suas características.</p>
-      </section>
+    <section id="contato" class="redesecontato">
+      <h1>Redes Sociais</h1>
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/ifpbcampusjpoficial"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/ifpbcampusjpoficial/"><i class="fa fa-instagram fa-2x" aria-hidden="false"></i></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/IFPBoficial?s=20"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+        </li>
+        <li>
+          <a href="https://br.linkedin.com/school/ifpb/"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+        </li>
+      </ul>
+    </section>
+    <section id="sobre" class="sobre">
+      <h1>Quem Somos?</h1>
+      <p>DOGINFO é um site informativo sobre raças de cachorro, onde com blocos interativos seja possível a comparação entre as raças e suas características.</p>
+    </section>
   </footer>
   </body>
 </html>
+
+
+<!--
+<div class="popuptext" id="myPopup">
+  <iframe 
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1979.4582707790096!2d-34.87499884397443!3d-7.135649594847398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ace810852ae4f1%3A0xaf5445223401f2bb!2sIFPB!5e0!3m2!1sen!2sbr!4v1521749915692" 
+  width="300"
+  height="200"
+  frameborder="0"
+  style="border:0" 
+  allowfullscreen>
+</div>
+-->

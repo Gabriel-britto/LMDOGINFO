@@ -23,4 +23,4 @@ Formulários de Login e Registro.
 Contato
 Gabriel Souto de Britto: gabrielsouto16@gmail.com
 
-Simon Lucena de Castro:
+Simon Lucena de Castro: simonlucena8@gmail.com

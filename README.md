@@ -1,6 +1,5 @@
 DOGINFO
 Conheça tudo sobre a raça do seu animal
-Acesse agora!
 
 Sobre
 Esse website foi criado com base em HTML, CSS e Javascript, com o objetivo de ser um site simples que disponibilize informações sobre determinadas raças de cachorros.
